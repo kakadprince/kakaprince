@@ -1,0 +1,14 @@
+{
+  "name": "membership-portal-backend",
+  "version": "0.1.0",
+  "description": "Prototype API for membership portal and LMS",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  }
+}

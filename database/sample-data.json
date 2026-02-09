@@ -1,0 +1,39 @@
+{
+  "applications": [
+    {
+      "id": "app-001",
+      "name": "Amara Singh",
+      "category": "Professional Member",
+      "status": "Pending",
+      "submittedAt": "2025-01-12"
+    }
+  ],
+  "members": [
+    {
+      "id": "mem-001",
+      "name": "Miguel Santos",
+      "status": "Active",
+      "expiryDate": "2025-12-31",
+      "certificates": ["Ethics Foundation", "Compliance Essentials"],
+      "learningProgress": 0.68
+    }
+  ],
+  "courses": [
+    {
+      "id": "course-001",
+      "title": "Professional Ethics & Governance",
+      "price": 220,
+      "accessRule": "Members only",
+      "completionCriteria": "80% quiz score"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv-001",
+      "memberId": "mem-001",
+      "type": "Membership fee",
+      "amount": 350,
+      "status": "Paid"
+    }
+  ]
+}
